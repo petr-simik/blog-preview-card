@@ -1,6 +1,6 @@
 # Blog preview card
 
-## [Live Demo]()
+## [Live Demo](https://qsoftin.github.io/blog-preview-card/)
 
  Challenge from Frontend Mentor -  Blog preview card
 
