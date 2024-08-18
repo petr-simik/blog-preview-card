@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Rubik+Mono+One&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray 500: hsl(0, 0%, 42%);
+    --Gray 950: hsl(0, 0%, 7%);
+}
+
+* {
+    font-family: Figtree;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--Yellow);
+    height: 100vh;
+    width: 100vw;
+    color: var(--Gray);
+}
+
+.mainContainer {
+    padding: 1.4em 1.7em 0.5em 1.7em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 380px;
+    height: 550px;
+    background-color: var(--White);
+    border-radius: 25px;
+    outline: 1px solid black;
+    box-shadow: 0.6em 0.6em 0px black;
+}
+
+svg {
+    transform: scale(1.15);
+    margin: 0;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 17px;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: var(--Gray);
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.learning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Yellow);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.textContainer {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5em;
+}
+
+a:hover {
+    color: var(--Yellow);
+}
+
+img {
+    width: 35px;
+}
+
+.avatar {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 470px) {
+    .mainContainer {
+        width: 75vw;
+        padding: 0em 1.7em 0.5em 1.7em;
+    }
+
+    svg {
+        transform: scale(0.88);
+    }
+}
